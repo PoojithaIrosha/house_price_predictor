@@ -45,7 +45,7 @@ house-price-predictor/
 ### 1️⃣ Train the Model  
 Open the notebook and run all cells:  
 ```bash
-jupyter notebook notebooks/model_training.ipynb
+jupyter notebook notebooks/house_price_pridiction.ipynb
 ```
 
 - This will train the regression pipeline and save the model as `models/house_price_pipeline.joblib`.  
@@ -54,7 +54,7 @@ jupyter notebook notebooks/model_training.ipynb
 Run the Flask application to serve predictions:  
 ```bash
 cd app
-python main.py
+python app.py
 ```
 
 - By default, the app runs on **http://127.0.0.1:5000/**.  
