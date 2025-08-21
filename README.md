@@ -11,12 +11,10 @@ This project is a **machine learning application** that predicts house prices ba
 
 ```
 house-price-predictor/
-│── data/                     # Raw and processed datasets
 │── notebooks/                # Jupyter notebooks (model training, experiments)
 │── models/                   # Saved trained models (joblib/pickle)
-│── app/                      # Flask application
-│── tests/                    # Unit and integration tests
 │── requirements.txt          # Python dependencies
+|── app.py                    # Flask application
 │── README.md                 # Documentation
 │── .gitignore
 ```
